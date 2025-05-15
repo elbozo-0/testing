@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel='stylesheet' href='style.css'>
+    </head>
+    <body>
+        <video id='v1' style='display: none;'>
+            <source src='fV1.mp4' type='video/mp4'>
+        </video>
+        <div id='all'>
+            <div name='title'>Fish Clicking Simulator</div>
+            <div id='des' name='small'></div><br><br>
+            <div name='st'>
+                <div style='display: inline;'>Points: </div>
+                <div id='score' name='title' style='display: inline;'></div>
+                <div style='display: inline;'> || </div>
+                <div style='display: inline;'>Level: </div>
+                <div id='level' name='title' style='display: inline;'></div>
+                <div style='display: inline;'> || </div>
+                <div style='display: inline;'>Coins: </div>
+                <div id='coins' name='title' style='display: inline;'></div>
+            </div><br>
+            <audio id='fAudio' style='display: none;'>
+                <source src='fishAudio.mp3' type='audio/mp3'>
+            </audio>
+            <button id='click'></button><br><br><br>
+            <div>
+                <button style='display: inline;' id='shop'>Shop</button>
+                <button style='display: inline;' id='settings'>Settings</button>
+            </div><br>
+            <div id='sp'>
+                <canvas class='canvas' width= '500'; height= '10';></canvas><br><br>
+                <button id='levelup'>Level Up for </button><br><br>
+                <button id='buycoins'>Buy a Fishy Coin for </button><br><br>
+                <div>
+                    <button style='color: black; background-position: center; background: url("https://perdonator.github.io/Fish-game/fishKing.png"); background-size: contain;' id='defaultskin'>Default Skin</button>
+                    <button style='color: darkorange; background-position: center; background: url("https://perdonator.github.io/Fish-game/fishskin.png"); background-size: contain;' id='buyskin1'></button>
+                    <button style='color: darkblue; background-position: center; background: url("https://perdonator.github.io/Fish-game/fishlord.png"); background-size: contain;' id='buyskin2'></button>
+                </div>
+            </div>
+            <div id='ss'>
+                <canvas class='canvas' width= '500'; height= '10';></canvas><br><br>
+                <div id='soundcb'>
+                    <input id='cb' type='checkbox'>
+                    <label>Enable Fish Sound?</label>
+                </div><br>
+                <div>
+                    <input id='codetb' style='border-radius: 10px;' type='textbox' placeholder='Enter a code'>
+                    <button id='codeb'>Enter</button>
+                </div>
+            </div>
+        </div>
+        <script src='localStorage.js'></script>
+        <script src='main.js'></script>
+        <script src='makesthiswebsiteabetterplace.js'></script>
+    </body>
+</html>

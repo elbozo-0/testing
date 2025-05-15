@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic+Coding&display=swap');
+* {
+    font-family: 'Nanum Gothic Coding';
+    scrollbar-width: none;
+    user-select: none;
+}
+
+body {
+    background: url('bg.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0;
+    height: 100vh;
+    flex-direction: column;
+}
+
+br {
+    line-height: 12.5px;
+}
+
+#click {
+    height: 22.5vh;
+    width: 22.5vh;
+    background-image: url('fK.png');
+    background-size: contain;
+}
+
+button {
+    box-shadow: 2px 2px gray;
+    border-radius: 15px;
+}
+
+button:hover {
+    transform: scale(1.05);
+    transition: all 1s;    
+}
+
+#shop, 
+#settings {
+    background-color: transparent;
+    font-size: 32.5px;
+    width: 27.5vh;
+    border-radius: 15px !important;
+}
+
+#ss,
+#sp {
+    flex-direction: column;
+}
+
+#buycoins, 
+#levelup,
+#defaultskin,
+#buyskin1,
+#buyskin2,
+#soundcb,
+#codetb,
+#codeb {
+    width: auto;
+    background-color: transparent;
+    font-size: 25px;
+}
+
+#buycoins, 
+#levelup {
+    border-radius: 10px;
+}
+
+#defaultskin,
+#buyskin1,
+#buyskin2 {
+    display: inline;
+    height: 50px;
+    font-weight: bold;
+    width: 267.5px;
+}
